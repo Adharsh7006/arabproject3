@@ -1,0 +1,52 @@
+.card-main{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.card-button{
+    border: none;
+    background-color: var(--card-button-color);
+    border-radius: 5px;
+    font-size: 13px;
+}
+.card-hr{
+    width: 200px;
+}
+.card-main p{
+    font-size: 13px;
+    margin: 0;
+
+}
+.card-value{
+    position: relative;
+  z-index: 1;
+    
+}
+.sloped-line {
+    position: absolute;
+    top: 40%; /* Adjust the position of the line */
+    left: 100px;
+    width: 70px; /* Adjust the width of the line */
+    height: 2px; /* Adjust the thickness of the line */
+    background-color: red; /* Adjust the color of the line */
+    transform-origin: top right;
+    transform: rotate(5deg); /* Adjust the slope angle */
+    z-index: 0; /* Place the line behind the text */
+    margin-left: 160px;
+  }
+  .card-icon{
+    width: 20px;
+    height: 20px;
+    color: var(--card-button-color);
+  }
+.card-explore{
+    padding-left: 40px;
+  }
+  
+  
